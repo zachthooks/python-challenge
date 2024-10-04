@@ -8,7 +8,6 @@ Repository Structure
 The repository is organized as follows:
 
 bash
-
 python-challenge/
 │
 ├── PyBank/
@@ -16,14 +15,14 @@ python-challenge/
 │   ├── Resources/
 │   │   └── budget_data.csv   # The financial dataset used in PyBank
 │   └── analysis/
-│       └── financial_analysis.txt  # The exported text file with the analysis results
+│       └── budget_analysis.txt  # The exported text file with the analysis results
 │
 ├── PyPoll/
 │   ├── main.py              # The main Python script for PyPoll analysis
 │   ├── Resources/
 │   │   └── election_data.csv # The election dataset used in PyPoll
 │   └── analysis/
-│       └── election_results.txt   # The exported text file with the analysis results
+│       └── election_analysis.txt   # The exported text file with the analysis results
 │
 └── README.md                # This file explaining the project
 
@@ -53,8 +52,6 @@ Output
     Text File: The results are also exported to a text file named financial_analysis.txt in the analysis/ folder.
 
 Example Output
-
-yaml
 
 Financial Analysis
 ----------------------------
@@ -91,8 +88,6 @@ Output
     Text File: The results are also exported to a text file named election_results.txt in the analysis/ folder.
 
 Example Output
-
-markdown
 
 Election Results
 -------------------------
